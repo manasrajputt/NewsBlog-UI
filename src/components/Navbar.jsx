@@ -41,7 +41,7 @@ const Navbar = () => {
         >
           <Link to="/">Home</Link>
           <Link to="/posts?sort=trending">Trending</Link>
-          {/* <Link to="/">Most Popular</Link> */}
+          <Link to="/savedPosts">Saved Posts</Link>
           <Link to="/about">About</Link>
           <Link to="/write">Add Post</Link>
           <SignedOut>
@@ -59,7 +59,7 @@ const Navbar = () => {
       <div className="hidden md:flex items-center gap-8 xl:gap-12 font-medium">
         <Link to="/">Home</Link>
         <Link to="/posts?sort=trending">Trending</Link>
-        {/* <Link to="/posts?sort=popular">Most Popular</Link> */}
+        <Link to="/savedPosts">Saved Posts</Link>
         <Link to="/about">About</Link>
         <Link to="/write">Add Post</Link>
 

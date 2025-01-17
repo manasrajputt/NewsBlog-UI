@@ -49,7 +49,7 @@ const PostList = () => {
       hasMore={!!hasNextPage}
       loader={<h4>Loading more posts...</h4>}
       endMessage={
-        <p>
+        <p className="mb-4">
           <b>All posts loaded!</b>
         </p>
       }
